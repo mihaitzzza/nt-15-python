@@ -358,9 +358,44 @@
 # my_var = f(4)
 # print('my_var', my_var)
 
-def f(a: str) -> None:
-    print(a.split(" "))
+# def f(a: str) -> None:
+#     print(a.split(" "))
+#
+#
+# # f("a b c")
 
 
-# f("a b c")
+# def my_function():
+#     pass
+
+# numbers = [6, 8, 5, 2, 4, 2, 3]
+# sorted_numbers = sorted(numbers)
+# print('sorted_numbers', sorted_numbers)
+
+# def get_student_grade(student):
+#     if "grade" in student:
+#         return student["grade"]
+#
+#     return 0
+
+
+# students = [
+#     {"name": "A", "grade": 6},
+#     {"name": "B", "grade": 8},
+#     {"name": "C", "grade": 5},
+#     {"name": "D", "grade": 2},
+#     {"name": "E", "grade": 4},
+#     {"name": "F", "grade": 2},
+#     {"name": "G", "grade": 3},
+#     {"name": "H"}
+# ]
+#
+# # sorted_students = sorted(students, key=lambda student: student.get("grade", 0))
+# # sorted_students = sorted(students, key=lambda student: student["grade"])
+# # is_even = True if 5 % 2 == 0 else False
+# sorted_students = sorted(students, key=lambda student: student["grade"] if "grade" in student else 0)
+#
+# print('sorted_students', sorted_students)
+
+
 
