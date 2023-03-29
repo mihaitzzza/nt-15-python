@@ -1,0 +1,38 @@
+[
+    {
+        "first_name": "Mihai",
+        "last_name": "Popescu",
+        "age": 20,
+        "address": {
+            "street": "Street 1",
+            "street_no": "28",
+            "block": "A2",
+            "apartment": 1
+        }
+    },
+    {
+        "first_name": "Ion",
+        "last_name": "Georgescu",
+        "age": 30,
+        "address": {
+            "street": "Street 1",
+            "street_no": "28",
+            "block": "A2",
+            "apartment": 1
+        },
+        "relatives": [
+            {
+                "type": "uncle",
+                "first_name": "Ion",
+                "last_name": "Georgescu",
+                "age": 30,
+                "address": {
+                    "street": "Street 1",
+                    "street_no": "28",
+                    "block": "A2",
+                    "apartment": 1
+                }
+            }
+        ]
+    }
+]
