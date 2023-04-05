@@ -28,7 +28,7 @@ def get_options(board):
     return options
 
 
-def get_choice(available_choices):
+def get_choice(available_choices: list[int]):
     user_input = input("Pick a value: ")
     user_input = int(user_input)
 
