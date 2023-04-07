@@ -1,0 +1,16 @@
+[
+  {
+    "id": "0bd03e1d-8417-43b8-8260-8b061f53e372",
+    "hp": 200,
+    "price": 15000.0,
+    "brand": "Renault",
+    "model": "Megane"
+  },
+  {
+    "id": "87568991-71ca-4f5d-a5bb-35119663b540",
+    "hp": 350,
+    "price": 30000.0,
+    "brand": "BMW",
+    "model": "M3"
+  }
+]
