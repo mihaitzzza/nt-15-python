@@ -235,4 +235,3 @@ romania.add_cities([sibiu, iasi])
 # print(sibiu.country, iasi.country)
 
 print(sibiu.country.cities[0].country.cities[1].country.cities)
-
