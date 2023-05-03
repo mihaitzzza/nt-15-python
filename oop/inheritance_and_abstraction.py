@@ -1,3 +1,6 @@
+from abc import abstractmethod, ABC
+
+
 class Passport:
     def __init__(self, series, number):
         self.__series = series
@@ -12,7 +15,7 @@ class Passport:
         return self.__number
 
 
-class Animal:
+class Animal(ABC):
     def __init__(self, name, passport=None, age=0):
         self._name = name
         self._passport = passport
@@ -40,13 +43,17 @@ class Animal:
     def _speak(self, dialect):
         print(f"{type(self).__name__} {self._name}: '{dialect}'")
 
+    @abstractmethod
+    def speak(self):
+        raise NotImplementedError("Abstract method 'speak' is not implemented.")
 
-class Mammal(Animal):
+
+class Mammal(Animal, ABC):
     def get_birth(self):
         print(f"{type(self)} - {self._name}: Born alive children.")
 
 
-class Bird(Animal):
+class Bird(Animal, ABC):
     def get_birth(self):
         print(f"{type(self)} - {self._name}: Lay down eggs.")
 
@@ -82,7 +89,13 @@ class Whale(Mammal):
 
 
 class Dolphin(Mammal):
-    pass
+    def speak(self):
+        super()._speak("Whistle!")
+
+
+class Peacock(Bird):
+    def speak(self):
+        pass
 
 
 if __name__ == '__main__':
@@ -112,25 +125,31 @@ if __name__ == '__main__':
     #     animal.get_birth()
     #     print(animal._name)
 
-    micky_cat = Cat("Micky", passport=Passport(series="A123", number="20230425000"))
-    misha_dog = Dog("Misha")
-    viorel_pig = Pig("Viorel")
-    coco_perrot = Perrot("Coco")
-    julie_cat = Cat("Julie")
-    simba_tiger = Tiger("Simba")
-    flipper_whale = Whale("Flipper")
-    rex_dolphin = Dolphin("Rex")
+    # micky_cat = Cat("Micky", passport=Passport(series="A123", number="20230425000"))
+    # misha_dog = Dog("Misha")
+    # viorel_pig = Pig("Viorel")
+    # coco_perrot = Perrot("Coco")
+    # julie_cat = Cat("Julie")
+    # simba_tiger = Tiger("Simba")
+    # flipper_whale = Whale("Flipper")
+    # rex_dolphin = Dolphin("Rex")
+    #
+    # animals = [
+    #     micky_cat,
+    #     misha_dog,
+    #     viorel_pig,
+    #     coco_perrot,
+    #     julie_cat,
+    #     simba_tiger,
+    #     flipper_whale,
+    #     rex_dolphin,
+    # ]
+    #
+    # for animal in animals:
+    #     animal.speak()
 
-    animals = [
-        micky_cat,
-        misha_dog,
-        viorel_pig,
-        coco_perrot,
-        julie_cat,
-        simba_tiger,
-        flipper_whale,
-        rex_dolphin,
-    ]
+    # gigel = Animal("gigel")
+    # print('gigel', gigel)
 
-    for animal in animals:
-        animal.speak()
+    gigel = Mammal("Gigel")
+    print('gigel', gigel)
