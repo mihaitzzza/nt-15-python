@@ -1,0 +1,43 @@
+/*h3 {*/
+/*    color: green;*/
+/*}*/
+
+/*#container {*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*.bg-cyan {*/
+/*    background-color: cyan;*/
+/*}*/
+
+#main-container {
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-container img {
+    width: 100%;
+}
+
+#main-container h1 {
+    order: 1;
+}
+
+#logo-container {
+    order: 2;
+}
+
+#main-container p {
+    order: 3;
+}
+
+@media screen and (min-width: 1000px) {
+    #logo-container {
+        order: 1;
+    }
+
+    #main-container h1 {
+        order: 2;
+    }
+}
