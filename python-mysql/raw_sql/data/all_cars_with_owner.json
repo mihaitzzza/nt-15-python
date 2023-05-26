@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "owner": {
+      "id": 1,
+      "first_name": "Ionut",
+      "last_name": "Popescu",
+      "email": "ipopescu@test.com",
+      "address": null
+    },
+    "brand": "Opel",
+    "model": "Corsa",
+    "number": "B123DJI"
+  },
+  {
+    "id": 2,
+    "owner": {
+      "id": 1,
+      "first_name": "Ionut",
+      "last_name": "Popescu",
+      "email": "ipopescu@test.com",
+      "address": null
+    },
+    "brand": "Opel",
+    "model": "Astra",
+    "number": "DJ12GGI"
+  },
+  {
+    "id": 3,
+    "owner": {
+      "id": 6,
+      "first_name": "Daniel",
+      "last_name": "Vasile",
+      "email": "dvasile@test.com",
+      "address": null
+    },
+    "brand": "BMW",
+    "model": "M3",
+    "number": "CJ90BBA"
+  }
+]
