@@ -1,0 +1,629 @@
+[
+  {
+    "name": "Laptop, Tablete & Telefoane",
+    "categories": [
+      {
+        "name": "Laptopuri si accesorii",
+        "categories": [
+          {
+            "name": "Laptopuri",
+            "products": [
+              {
+                "id": "1c746022-8cfc-4e0a-90b2-8a81599c08f0",
+                "title": "Laptop Lenovo IdeaPad 3 15ITL6 cu procesor Intel\u00ae Core\u2122 i5-1155G7 pana la 4.5 GHz, 15.6\", Full HD, 8GB DDR4, 512GB SSD, Intel\u00ae UHD Graphics, No OS, Arctic Grey",
+                "price": 2099.99,
+                "image_path": "images/1c746022-8cfc-4e0a-90b2-8a81599c08f0.jpg"
+              },
+              {
+                "id": "54ccaa9f-7e23-4ee1-aac3-57222e6136ad",
+                "title": "Laptop Gaming Lenovo IdeaPad 3 15IHU6 cu procesor Intel\u00ae Core\u2122 i5-11320H pana la 4.50 GHz, Tiger Lake, 15.6\", Full HD, IPS, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650 4GB, No OS, Shadow Black",
+                "price": 2999.99,
+                "image_path": "images/54ccaa9f-7e23-4ee1-aac3-57222e6136ad.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Genti laptop",
+            "products": [
+              {
+                "id": "c40b675b-5a5e-4998-a4f3-c6fbfe4af51c",
+                "title": "Rucsac/Ghiozdan Mark Ryden compatibil cu laptop 17.3\", 30L, port USB, full impermeabil, sistem antifurt, unisex, spatios, negru",
+                "price": 383.18,
+                "image_path": "images/c40b675b-5a5e-4998-a4f3-c6fbfe4af51c.jpg"
+              },
+              {
+                "id": "e21d32ab-3357-4940-b1d3-4d994b6b1660",
+                "title": "Rucsac pentru laptop portabil, Darklove, cu port de incarcare USB, Rezistent la apa, Rezistent la zgarieturi, 15.6'', 28x12x41 cm, Gri",
+                "price": 68.31,
+                "image_path": "images/e21d32ab-3357-4940-b1d3-4d994b6b1660.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Docking stations",
+            "products": [
+              {
+                "id": "3335ef50-d0d4-4707-b26e-eea4f486ddb3",
+                "title": "Adaptor pentru Macbook Air/Pro Bivier 6in1 Plug-And-Play, Type-C, Space Grey",
+                "price": 118.38,
+                "image_path": "images/3335ef50-d0d4-4707-b26e-eea4f486ddb3.jpg"
+              },
+              {
+                "id": "2722d7df-65f3-4fde-8775-d258be1f4d84",
+                "title": "Hub USB C, Adaptor USB C 8 in 1 cu HDMI 4K, Type C PD 100W, Gri",
+                "price": 129.71,
+                "image_path": "images/2722d7df-65f3-4fde-8775-d258be1f4d84.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Telefoane mobile & accesorii",
+        "categories": [
+          {
+            "name": "Telefoane Mobile",
+            "products": [
+              {
+                "id": "92c41fe2-0f58-4ef5-a206-ac6e05a708ce",
+                "title": "Telefon mobil Samsung Galaxy A54, Dual SIM, 8GB RAM, 128GB, 5G, Black",
+                "price": 1769.99,
+                "image_path": "images/92c41fe2-0f58-4ef5-a206-ac6e05a708ce.jpg"
+              },
+              {
+                "id": "1e9058bb-e04e-4bbf-ae23-9f408b7c4e5b",
+                "title": "Telefon mobil OUKITEL WP12 Pro, Android 11, 4GB/64GB, Dual SIM 4G, IP68, Face ID/NFC, Rosu",
+                "price": 670.67,
+                "image_path": "images/1e9058bb-e04e-4bbf-ae23-9f408b7c4e5b.jpg"
+              },
+              {
+                "id": "6b036e4d-eeb0-492b-94b3-cc8421970458",
+                "title": "Telefon mobil Samsung Galaxy S23 Ultra, Dual SIM, 512GB, 12GB RAM, 5G, Phantom Black",
+                "price": 6027.29,
+                "image_path": "images/6b036e4d-eeb0-492b-94b3-cc8421970458.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Huse telefoane",
+            "products": [
+              {
+                "id": "6c7461ab-28ac-4109-b2eb-a46b1dde8cbe",
+                "title": "Husa de protectie ultra slim pentru Samsung Galaxy S21 FE, 0.5mm, Transparent",
+                "price": 13.09,
+                "image_path": "images/6c7461ab-28ac-4109-b2eb-a46b1dde8cbe.jpg"
+              },
+              {
+                "id": "d6fffb66-114f-4d0c-97c4-e52891ab352d",
+                "title": "Husa CASEY STUDIOS\u2122 pentru iPhone 13, Soft Silicone Premium, 30+ Culori, Microfibra in Interior, Negru, de Protectie, Ultra Slim, pentru Incarcare Wireless, Margini Ridicate pentru Protectia Ecranului si a Camerelor",
+                "price": 49.99,
+                "image_path": "images/d6fffb66-114f-4d0c-97c4-e52891ab352d.jpg"
+              },
+              {
+                "id": "a7aefb8b-4393-40f6-99ea-e8afcfb220b8",
+                "title": "Husa tip carte, compatibila cu Samsung Galaxy A13 5G / A04s, model Smart Book Case, material textil, negru",
+                "price": 15.0,
+                "image_path": "images/a7aefb8b-4393-40f6-99ea-e8afcfb220b8.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Folii protectie telefoane",
+            "products": [
+              {
+                "id": "6f680838-3dad-40eb-8a4c-490cd6b32259",
+                "title": "Folie Sticla Premium pentru iPhone 11 & iPhone XR (6.1\"), 5D, Full Cover (acopera tot ecranul), Full Glue, Negru",
+                "price": 9.52,
+                "image_path": "images/6f680838-3dad-40eb-8a4c-490cd6b32259.jpg"
+              },
+              {
+                "id": "356af048-42a8-46a7-a417-50d492cabe41",
+                "title": "Folie Sticla Daden MaxProtection pentru Samsung A14, Full Cover, Protectie Profesionala, Ultra Rezistenta, Calitate Premium",
+                "price": 22.49,
+                "image_path": "images/356af048-42a8-46a7-a417-50d492cabe41.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tablete & accesorii",
+        "categories": [
+          {
+            "name": "Tablete",
+            "products": [
+              {
+                "id": "4bd68e7a-2663-49b1-8a7f-25969a8247aa",
+                "title": "Tableta Samsung Galaxy Tab A7 (2022), Octa-Core, 10.4\", 3GB RAM, 32GB, Wi-Fi, Gray",
+                "price": 799.48,
+                "image_path": "images/4bd68e7a-2663-49b1-8a7f-25969a8247aa.jpg"
+              },
+              {
+                "id": "812066dd-a0b6-447b-91fe-337401b16e25",
+                "title": "Tableta Samsung Galaxy Tab A8, Octa-Core, 10.5\", 4GB RAM, 64GB, 4G, Gray",
+                "price": 1245.97,
+                "image_path": "images/812066dd-a0b6-447b-91fe-337401b16e25.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Huse tablete",
+            "products": [
+              {
+                "id": "e1c10767-e997-4cb3-b8ec-25558e88f543",
+                "title": "Husa pentru iPad 9 (2021), 10,2 \"/ iPad 8 (2020), 10,2 \"/ iPad 7 (2019), 10,2\" / iPad Air 3,10,5 \"/ iPad Pro 10,5\", Cu suport pentru pix, Negru",
+                "price": 46.89,
+                "image_path": "images/e1c10767-e997-4cb3-b8ec-25558e88f543.jpg"
+              },
+              {
+                "id": "f65a3465-be27-4bb6-9e67-b4f9ec7419a2",
+                "title": "Husa Premium Book Cover Slim pentru Samsung Tab A8 10.5 inch (2022) SM-X200 / X205 / X207",
+                "price": 69.98,
+                "image_path": "images/f65a3465-be27-4bb6-9e67-b4f9ec7419a2.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Folii protectie tablete",
+            "products": [
+              {
+                "id": "6203ed94-2a78-408a-a76e-e47108313d8f",
+                "title": "Folie Tempered Glass pentru Apple iPad 10 2022 10.9 inch - Sticla Securizata",
+                "price": 29.99,
+                "image_path": "images/6203ed94-2a78-408a-a76e-e47108313d8f.jpg"
+              },
+              {
+                "id": "ebd511cc-6f8b-42c2-8d8d-96bf405edb32",
+                "title": "Set 2 Bucati, Folie Sticla Compatibila cu Samsung Galaxy Tab A8 10.5\", Dr.Shield, Protectie Profesionala Ecran",
+                "price": 99.98,
+                "image_path": "images/ebd511cc-6f8b-42c2-8d8d-96bf405edb32.jpg"
+              },
+              {
+                "id": "182beb41-0604-49b0-b92c-e67faff2dedc",
+                "title": "Set 2 Bucati, Folie Sticla Compatibila Apple iPad Air 5 10.9\" 2022, Dr.Shield, Protectie Profesionala Ecran",
+                "price": 99.98,
+                "image_path": "images/182beb41-0604-49b0-b92c-e67faff2dedc.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PC, Periferice & Software",
+    "categories": [
+      {
+        "name": "Desktop PC & Monitoare",
+        "categories": [
+          {
+            "name": "Desktop PC",
+            "products": [
+              {
+                "id": "40498c0a-b63a-4e0e-b4c7-dc203e9d8e09",
+                "title": "Sistem Desktop PC Gaming Serioux Powered by ASUS cu procesor Intel\u00ae Core\u2122 i5-10400F pana la 4.30GHz, 16GB DDR4, 500GB SSD M.2 PCIe, Radeon\u2122 RX 6600 8GB GDDR6, No OS",
+                "price": 3299.99,
+                "image_path": "images/40498c0a-b63a-4e0e-b4c7-dc203e9d8e09.jpg"
+              },
+              {
+                "id": "a4cc9e9f-6dcc-440c-b71b-be3ab3ff0294",
+                "title": "Sistem PC Gaming XSGW9 cu Intel\u00ae Core\u2122 i9 11900KF Rocket Lake pana la 5.3 GHz, 32GB DDR4, SSD 1 TB, placa video GeForce\u00ae RTX\u2122 3060 12GB GDDR6, Windows 11 Pro",
+                "price": 6995.0,
+                "image_path": "images/a4cc9e9f-6dcc-440c-b71b-be3ab3ff0294.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Monitoare LED",
+            "products": [
+              {
+                "id": "b1c1e542-9472-463e-870f-4f7d8ef6849f",
+                "title": "Monitor curbat Samsung S24C366EAU, 24\u201d, Full HD, VA, 60Hz, 4ms",
+                "price": 499.99,
+                "image_path": "images/b1c1e542-9472-463e-870f-4f7d8ef6849f.jpg"
+              },
+              {
+                "id": "74aadf36-6e8e-40d7-af91-abce009c4992",
+                "title": "Monitor curbat LED HP V27c G5, 27\", VA, Full HD, 75Hz, FreeSync, Display Port, HDMI, 3000:1, 5ms",
+                "price": 769.99,
+                "image_path": "images/74aadf36-6e8e-40d7-af91-abce009c4992.jpg"
+              },
+              {
+                "id": "e76d705e-e78f-478f-a368-9ec9a2823605",
+                "title": "Monitor LED LG, 35 inch, UltraWide, QHD, Curbat, AMD FreeSync, 100Hz, 5ms, USB Type-C, HDMI, DisplayPort, Negru",
+                "price": 1899.9,
+                "image_path": "images/e76d705e-e78f-478f-a368-9ec9a2823605.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Accesorii monitoare",
+            "products": [
+              {
+                "id": "73f9c2f0-c261-4413-9d6c-a7b5a1c93f4d",
+                "title": "Adaptor, convertor semnal HDMI (digital) la VGA (analog) HDMI A tata la VGA mama - fara sunet, unidirectional",
+                "price": 20.0,
+                "image_path": "images/73f9c2f0-c261-4413-9d6c-a7b5a1c93f4d.jpg"
+              },
+              {
+                "id": "0320222a-b11e-4cf2-8e6b-205d0ea3fc49",
+                "title": "Cablu monitor, Atolla, HDMI/VGA, 1.8m, Negru",
+                "price": 34.61,
+                "image_path": "images/0320222a-b11e-4cf2-8e6b-205d0ea3fc49.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Componente PC",
+        "categories": [
+          {
+            "name": "Placi video",
+            "products": [
+              {
+                "id": "7dfe4688-b474-45c8-a87a-530b6c383014",
+                "title": "Placa video Sapphire Radeon\u2122 RX 6600 PULSE, 8GB GDDR6, 128-bit",
+                "price": 1252.61,
+                "image_path": "images/7dfe4688-b474-45c8-a87a-530b6c383014.jpg"
+              },
+              {
+                "id": "2868f07f-8e45-49b6-8326-365096a6260c",
+                "title": "Placa video Biostar Radeon RX-580 8GB GDDR5 256bit Bulk",
+                "price": 819.99,
+                "image_path": "images/2868f07f-8e45-49b6-8326-365096a6260c.jpg"
+              },
+              {
+                "id": "e3a36890-9009-4be4-b3c0-6da23c7ecd7e",
+                "title": "Placa Video MSI GeForce RTX\u2122 3060 Ti VENTUS 2X OC, 8GB GDDR6X, 256-bit",
+                "price": 1899.99,
+                "image_path": "images/e3a36890-9009-4be4-b3c0-6da23c7ecd7e.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Placi de baza",
+            "products": [
+              {
+                "id": "eb5397ba-e8c4-4da1-8f9a-87e8cf2f84aa",
+                "title": "Placa de baza Gigabyte B550M DS3H, Socket AM4",
+                "price": 454.99,
+                "image_path": "images/eb5397ba-e8c4-4da1-8f9a-87e8cf2f84aa.jpg"
+              },
+              {
+                "id": "cbf26dac-0ddb-46f2-a034-c6773e47da49",
+                "title": "Placa de baza MSI A520M-A PRO, Socket AM4",
+                "price": 299.0,
+                "image_path": "images/cbf26dac-0ddb-46f2-a034-c6773e47da49.jpg"
+              },
+              {
+                "id": "c8fa6d72-1309-47b4-838d-004a4dbc9bab",
+                "title": "Placa de baza ASUS PRIME B450-PLUS, Socket AM4",
+                "price": 465.99,
+                "image_path": "images/c8fa6d72-1309-47b4-838d-004a4dbc9bab.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Placi de sunet",
+            "products": [
+              {
+                "id": "817f0559-6276-4a02-91f6-247c9b23a53e",
+                "title": "Placa de Sunet Edifier GS01, extern, interfata USB 2.0, conectori 3.5 mm jack",
+                "price": 25.0,
+                "image_path": "images/817f0559-6276-4a02-91f6-247c9b23a53e.jpg"
+              },
+              {
+                "id": "ea6b7b84-b336-4fee-adfa-d35f041f29b0",
+                "title": "Placa de sunet USB Axagon Adaptor ADA-12 USB2.0 - Adaptor audio stereo mini, 1 x USB 2.0 - 2 x Jack 3.5 Female",
+                "price": 32.99,
+                "image_path": "images/ea6b7b84-b336-4fee-adfa-d35f041f29b0.jpg"
+              },
+              {
+                "id": "2c0d476c-9d45-4286-bf94-51cf4d76af98",
+                "title": "Placa de sunet Creative Play! 3, USB",
+                "price": 99.99,
+                "image_path": "images/2c0d476c-9d45-4286-bf94-51cf4d76af98.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Software",
+        "categories": [
+          {
+            "name": "Office & Aplicatii Desktop",
+            "products": [
+              {
+                "id": "a9ddb081-b1bb-4344-8f06-c9f50ffea6b8",
+                "title": "Licenta Microsoft Office Professional Plus 2021, Retail, USB",
+                "price": 113.05,
+                "image_path": "images/a9ddb081-b1bb-4344-8f06-c9f50ffea6b8.jpg"
+              },
+              {
+                "id": "988f2ac0-20ec-4459-b897-39d7e7162463",
+                "title": "Pachet promo: Microsoft Office 2021 Professional Plus Licenta Transferabila Permanenta Cod in Box + Microsoft\u00ae Windows 11 Pro, 64-bit, Engleza, USB",
+                "price": 232.94,
+                "image_path": "images/988f2ac0-20ec-4459-b897-39d7e7162463.jpg"
+              },
+              {
+                "id": "161d0838-22fb-43f0-ade8-bbd944b1e0f4",
+                "title": "Licenta Microsoft Office 2021 PP Code in the Box (Medialess)",
+                "price": 99.0,
+                "image_path": "images/161d0838-22fb-43f0-ade8-bbd944b1e0f4.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Sisteme de operare",
+            "products": [
+              {
+                "id": "c0becfb3-5d55-43c0-9ddc-2db7a886c9f9",
+                "title": "Microsoft\u00ae Windows 11 Pro, 64-bit, International, All Lang, USB, FPP, Retail",
+                "price": 129.0,
+                "image_path": "images/c0becfb3-5d55-43c0-9ddc-2db7a886c9f9.jpg"
+              },
+              {
+                "id": "25c10637-d2c3-46fa-982d-50fe00b8ccf8",
+                "title": "Microsoft Windows 11 Pro, 64 bit + Licenta Office 2021 Pro Plus",
+                "price": 197.54,
+                "image_path": "images/25c10637-d2c3-46fa-982d-50fe00b8ccf8.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Antivirus",
+            "products": [
+              {
+                "id": "aa20c322-e8f0-4973-8fd9-f60a190668d7",
+                "title": "Bitdefender Total Security, 1 an, 5 dispozitive, licenta retail",
+                "price": 162.99,
+                "image_path": "images/aa20c322-e8f0-4973-8fd9-f60a190668d7.jpg"
+              },
+              {
+                "id": "f0048aa4-0059-415e-80c2-16848600b174",
+                "title": "Bitdefender Antivirus Plus, 1 an, 3 dispozitive, licenta retail",
+                "price": 82.99,
+                "image_path": "images/f0048aa4-0059-415e-80c2-16848600b174.jpg"
+              },
+              {
+                "id": "0c894d06-9e59-438e-ada3-6083a82cb943",
+                "title": "Bitdefender Antivirus Plus, 1 an, 1 dispozitiv, licenta retail",
+                "price": 63.99,
+                "image_path": "images/0c894d06-9e59-438e-ada3-6083a82cb943.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TV, Audio-Video & Foto",
+    "categories": [
+      {
+        "name": "Televizoare & accesorii",
+        "categories": [
+          {
+            "name": "Televizoare",
+            "products": [
+              {
+                "id": "4290741b-fe4a-4e04-84e2-cfa70f669f25",
+                "title": "Televizor LED Nei 32NE4900, 80 cm, Smart, HD, Clasa F",
+                "price": 599.99,
+                "image_path": "images/4290741b-fe4a-4e04-84e2-cfa70f669f25.jpg"
+              },
+              {
+                "id": "5929213c-af0f-46ed-98c6-66a14b0352cd",
+                "title": "Televizor Samsung LED 55AU7092, 138 cm, Smart, 4K Ultra HD, clasa G",
+                "price": 1949.99,
+                "image_path": "images/5929213c-af0f-46ed-98c6-66a14b0352cd.jpg"
+              },
+              {
+                "id": "b7511786-7cfe-4af1-a101-559cc25b76c9",
+                "title": "Televizor Samsung LED 43BU8072, 108 cm, Smart, 4K Ultra HD, Ultra Slim, Clasa G",
+                "price": 1599.99,
+                "image_path": "images/b7511786-7cfe-4af1-a101-559cc25b76c9.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Cabluri si adaptoare",
+            "products": [
+              {
+                "id": "62035eaa-13b5-442d-96de-b61992f8c04e",
+                "title": "Cablu A+ Ultra High-Speed HDMI 2.0 V, 18Gbps 4K, HDR, 3D, 2160P, 1080P, plug-plug, Ethernet, gold-plated, 1.5m",
+                "price": 29.9,
+                "image_path": "images/62035eaa-13b5-442d-96de-b61992f8c04e.jpg"
+              },
+              {
+                "id": "db51ca92-0038-4ca1-b8ce-3866fa2afe60",
+                "title": "Cablu Reagle, HDMI 2.1, 8K si 4K Ultra HD, 48Gbps, compatibil cu consola PS5 Xbox Series X S, 1,5 m",
+                "price": 51.99,
+                "image_path": "images/db51ca92-0038-4ca1-b8ce-3866fa2afe60.jpg"
+              },
+              {
+                "id": "c92069d3-423f-4655-a10d-b8a523108f49",
+                "title": "Cablu A+ HDMI 2.1 V, UHS2.1-3, tata-tata, 8K, Ethernet, aurit, 3 m",
+                "price": 27.59,
+                "image_path": "images/c92069d3-423f-4655-a10d-b8a523108f49.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Suporturi TV",
+            "products": [
+              {
+                "id": "aa7d794f-1df8-43d7-bd7c-1281ed68b223",
+                "title": "Suport TV de perete A+ SP44T, reglabil, 32\"-55\", Negru",
+                "price": 69.99,
+                "image_path": "images/aa7d794f-1df8-43d7-bd7c-1281ed68b223.jpg"
+              },
+              {
+                "id": "932e0fea-1e88-447a-9b76-871b846941c0",
+                "title": "Suport TV perete, Brat reglabil, 32/55 inchi, Otel, Negru",
+                "price": 109.48,
+                "image_path": "images/932e0fea-1e88-447a-9b76-871b846941c0.jpg"
+              },
+              {
+                "id": "19f6f618-1001-4a84-9ae5-d4958d7450d8",
+                "title": "Suport TV de perete A+ SP22T, reglabil, 23\"-43\" (60cm-108cm), Negru",
+                "price": 59.99,
+                "image_path": "images/19f6f618-1001-4a84-9ae5-d4958d7450d8.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Audio HI-FI & Profesionale",
+        "categories": [
+          {
+            "name": "Boxe",
+            "products": [
+              {
+                "id": "6b9cd5c4-9d6b-4b4d-8df4-d04df24676dd",
+                "title": "Set boxe active JRH 2321A Microphone wireless 800w",
+                "price": 799.99,
+                "image_path": "images/6b9cd5c4-9d6b-4b4d-8df4-d04df24676dd.jpg"
+              },
+              {
+                "id": "4f95d019-a21d-4e83-8886-5fbf7deeb5a4",
+                "title": "Set Boxe Profesionale JRH cu Microfon Wireless inclus , Telecomanda , Conectare USB , Conectare prin Functia Bluetooth , SD Card , Joc de Lumini , Intrare AUX , Ecran LED , Negru",
+                "price": 549.99,
+                "image_path": "images/4f95d019-a21d-4e83-8886-5fbf7deeb5a4.jpg"
+              },
+              {
+                "id": "7332a0d9-3956-4e97-8fec-2a6d2d4977d2",
+                "title": "Set Boxe Profesionale 284, JRH cu Microfon Wireless inclus, Telecomanda, Conectare USB, Conectare prin Functia Bluetooth, SD Card, Joc de Lumini, Intrare AUX, Ecran LED, Negru",
+                "price": 499.99,
+                "image_path": "images/7332a0d9-3956-4e97-8fec-2a6d2d4977d2.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Sisteme complete",
+            "products": [
+              {
+                "id": "503ff25b-02e0-4afe-8e8e-ec698e6e416b",
+                "title": "Set amplificator audio incastrabil perete cu 4 difuzoare tavan, 80W RMS, 6.5\", Bluetooth/USB/SD, Fenton POWERLINE A100BSET",
+                "price": 1218.8,
+                "image_path": "images/503ff25b-02e0-4afe-8e8e-ec698e6e416b.jpg"
+              },
+              {
+                "id": "64821b44-2d0e-4b70-88e8-1217c27a1c34",
+                "title": "Sistem audio Camry CR1173, Mini Hi-Fi sistem, Bluetooth, CD-ROM, USB, Stereo, 28W, FM/AM radio, X-Bass",
+                "price": 353.99,
+                "image_path": "images/64821b44-2d0e-4b70-88e8-1217c27a1c34.jpg"
+              },
+              {
+                "id": "c4daeaea-4662-4a7d-95ba-66640069814c",
+                "title": "Sistem complet boxe audio Perete 6 zone, Bluetooth, FM, USB, 120W",
+                "price": 2399.0,
+                "image_path": "images/c4daeaea-4662-4a7d-95ba-66640069814c.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Sisteme audio wireless",
+            "products": [
+              {
+                "id": "4bc78d4f-155e-4d2e-9af1-dbea0af98bbe",
+                "title": "Microfon Kararoke Wireless Auriu WS-858 cu Bluetooth Card SD",
+                "price": 57.12,
+                "image_path": "images/4bc78d4f-155e-4d2e-9af1-dbea0af98bbe.jpg"
+              },
+              {
+                "id": "cae0ee08-8357-4529-a254-39352ff9cc48",
+                "title": "Casti Bluetooth Wireless Audio TWS V6 Mini 5.0, Husa cu baterie externa, Negre",
+                "price": 169.9,
+                "image_path": "images/cae0ee08-8357-4529-a254-39352ff9cc48.jpg"
+              },
+              {
+                "id": "1cf17da8-9c3f-4eb5-a65f-a17fec1b8016",
+                "title": "Sistem audio 2.1 SVEN MS-307 Negru",
+                "price": 361.0,
+                "image_path": "images/1cf17da8-9c3f-4eb5-a65f-a17fec1b8016.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Home Cinema & Audio",
+        "categories": [
+          {
+            "name": "Sisteme audio",
+            "products": [
+              {
+                "id": "503dfee3-5465-4d10-ad2c-3fc3f6f628e5",
+                "title": "Sistem audio portabil JBL Partybox 110, 160W, Original Pro Sound, Dynamic light, Bluetooth, USB, Baterie 12H, IPX4, Negru",
+                "price": 1742.23,
+                "image_path": "images/503dfee3-5465-4d10-ad2c-3fc3f6f628e5.jpg"
+              },
+              {
+                "id": "068f5f6f-f210-4d82-979f-65e7aef644f5",
+                "title": "Sistem audio JBL Partybox 710, 800W, Original Pro Sound, Dynamic light, Bluetooth, USB, IPX4, Negru",
+                "price": 3870.37,
+                "image_path": "images/068f5f6f-f210-4d82-979f-65e7aef644f5.jpg"
+              },
+              {
+                "id": "6cc26bff-b15f-461c-b67e-436fce113047",
+                "title": "Sistem audio JBL Partybox 1000, JBL Signature Sound, 1100W, DJ Pad, Light Shows, Bass Boost, Bluetooth, USB, True Wireless Stereo",
+                "price": 5199.99,
+                "image_path": "images/6cc26bff-b15f-461c-b67e-436fce113047.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Sisteme Home Cinema",
+            "products": [
+              {
+                "id": "17974517-269b-47de-a125-74eb82543336",
+                "title": "Sistem Audio Surround Yamaha YHT-4960, 5.1, Negru",
+                "price": 4499.0,
+                "image_path": "images/17974517-269b-47de-a125-74eb82543336.jpg"
+              },
+              {
+                "id": "27666660-61b9-4b81-9441-f1e275dbec19",
+                "title": "Home Cinema 5.1 Canton Movie 135, Negru",
+                "price": 4307.8,
+                "image_path": "images/27666660-61b9-4b81-9441-f1e275dbec19.jpg"
+              },
+              {
+                "id": "2324fe07-6445-4025-88e3-d1659861b067",
+                "title": "Sistem audio profesional Akai cu telecomanda , afisaj digital si DVD Alien cu USB",
+                "price": 995.01,
+                "image_path": "images/2324fe07-6445-4025-88e3-d1659861b067.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Soundbar",
+            "products": [
+              {
+                "id": "2c16fcd0-fb5b-45e0-96e3-3ee2960c8a92",
+                "title": "Soundbar Samsung HW-B650/EN, 3.1, 430W, Dolby , Subwoofer Wireless, negru",
+                "price": 999.99,
+                "image_path": "images/2c16fcd0-fb5b-45e0-96e3-3ee2960c8a92.jpg"
+              },
+              {
+                "id": "ec4ac654-de99-4c12-929a-f8b00ad0cf7e",
+                "title": "Soundbar Sony HT-SF150, 2 canale, Boxa Bass Reflex, 120W, Bluetooth, Negru",
+                "price": 544.78,
+                "image_path": "images/ec4ac654-de99-4c12-929a-f8b00ad0cf7e.jpg"
+              },
+              {
+                "id": "c60da07c-f1f8-4be9-a2f1-813f44ce58e9",
+                "title": "Soundbar JBL BAR 500, 5.1, 590W, Multibeam, Dolby Atmos, Wi-Fi, AirPlay, Negru",
+                "price": 2699.99,
+                "image_path": "images/c60da07c-f1f8-4be9-a2f1-813f44ce58e9.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
