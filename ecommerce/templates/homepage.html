@@ -1,0 +1,21 @@
+{#<html>#}
+{#    <head>#}
+{#        <title>#}
+{#            First Django Project#}
+{#        </title>#}
+{#    </head>#}
+{#    <body>#}
+{#        {% include "navigation.html" %}#}
+{#        <h1>This is my first Django project</h1>#}
+{#    </body>#}
+{#</html>#}
+
+{% extends "base.html" %}
+
+{% block title %}
+    <title>First Django Project</title>
+{% endblock %}
+
+{% block content %}
+    <h1>This is my first Django project</h1>
+{% endblock %}

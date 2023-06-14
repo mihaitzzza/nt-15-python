@@ -1,0 +1,22 @@
+{#<html>#}
+{#    <head>#}
+{#        <title>Product details page</title>#}
+{#    </head>#}
+{#    <body>#}
+{#        <h1>Product details page</h1>#}
+{#        <p>Name: {{ product.name }}</p>#}
+{#        <p>Price: {{ product.price }} RON</p>#}
+{#    </body>#}
+{#</html>#}
+
+{% extends "base.html" %}
+
+{% block title %}
+    <title>{{ product.name }}</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Product details page</h1>
+    <p>Name: {{ product.name }}</p>
+    <p>Price: {{ product.price }} RON</p>
+{% endblock %}

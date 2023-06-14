@@ -1,0 +1,56 @@
+{#<html>#}
+{#    <head>#}
+{#        <title>Products page</title>#}
+{#        <style>#}
+{#            .products-list li {#}
+{#                display: flex;#}
+{#                align-items: center;#}
+{#            }#}
+{#            .products-list li a {#}
+{#                margin-left: 20px;#}
+{#            }#}
+{#        </style>#}
+{#    </head>#}
+{#    <body>#}
+{#        {% include "navigation.html" %}#}
+{#        <h1>Products page</h1>#}
+{#        <ul class="products-list">#}
+{#            {% for product in products %}#}
+{#                <li>#}
+{#                    <h2>{{ product.name }} ({{ product.price }} RON)</h2>#}
+{#                    <a>View details</a>#}
+{#                </li>#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    </body>#}
+{#</html>#}
+
+{% extends "base.html" %}
+
+{% block title %}
+    <title>Products page</title>
+{% endblock %}
+
+{% block style %}
+    <style>
+        .products-list li {
+            display: flex;
+            align-items: center;
+        }
+        .products-list li a {
+            margin-left: 20px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <h1>Products page</h1>
+    <ul class="products-list">
+        {% for product in products %}
+            <li>
+                <h2>{{ product.name }} ({{ product.price }} RON)</h2>
+                <a href="{% url 'products:product_details' product.id %}">View details</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
