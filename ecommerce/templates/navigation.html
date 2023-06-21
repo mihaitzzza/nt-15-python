@@ -1,4 +1,8 @@
+{% load static %}
 <nav>
+    <div>
+        <img src="{% static 'images/logo.svg' %}" height="60" />
+    </div>
     <ul>
         <li>
             <a href="{% url 'homepage' %}">Home</a>

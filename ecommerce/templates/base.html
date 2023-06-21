@@ -1,9 +1,12 @@
+{% load static %}
 <html>
     <head>
         {% block title %}
         {% endblock %}
         {% block style %}
         {% endblock %}
+        <link rel="stylesheet" href="{% static 'styles/main.css' %}" />
+        <script src="{% static 'js/sample.js' %}"></script>
     </head>
     <body>
         {% include "navigation.html" %}

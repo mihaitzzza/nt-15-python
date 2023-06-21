@@ -17,6 +17,12 @@
 
 {% block content %}
     <h1>Product details page</h1>
+    {% comment %}<p>Department: {{ product.category.parent.parent.name }}</p>
+    <p>Category: {{ product.category.parent.name }}</p>
+    <p>Subcategory: {{ product.category.name }}</p>{% endcomment %}
+    <p>Department: {{ product.parent_department.name }}</p>
+    <p>Category: {{ product.parent_category.name }}</p>
+    <p>Subcategory: {{ product.parent_subcategory.name }}</p>
     <p>Name: {{ product.name }}</p>
     <p>Price: {{ product.price }} RON</p>
 {% endblock %}
