@@ -1,4 +1,5 @@
 from django.db import models
+from django.templatetags.static import static
 
 
 class Category(models.Model):
@@ -27,3 +28,12 @@ class Product(models.Model):
     def parent_department(self):
         # return self.category.parent.parent
         return self.parent_category().parent
+
+    @property
+    def image_src(self):
+        if self.image:
+            return self.image.url
+
+        return static("images/default-product-image.png")
+
+

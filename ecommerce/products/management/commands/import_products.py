@@ -1,4 +1,8 @@
 import json
+import os
+import shutil
+from pathlib import Path
+from django.conf import settings
 from django.db import transaction
 from django.core.management.base import BaseCommand, CommandError
 from products.models import Category, Product
@@ -16,6 +20,8 @@ class Command(BaseCommand):
                 products_data = json.load(json_file)
         except Exception:
             raise CommandError(f"Data in file {file} is not accessible.")
+
+        parent_directory = Path(file).parent
 
         try:
             with transaction.atomic():
@@ -40,10 +46,15 @@ class Command(BaseCommand):
                             )
 
                             for product_data in subcategory_data["products"]:
+                                image_abs_path = parent_directory / product_data['image_path']
+                                new_abs_path = settings.MEDIA_ROOT / "products" / image_abs_path.name
+                                shutil.copyfile(image_abs_path, new_abs_path)
+
                                 Product.objects.create(
                                     category=subcategory,
                                     name=product_data["title"],
                                     price=product_data["price"],
+                                    image=os.path.normpath(f"products/{image_abs_path.name}")
                                 )
         except Exception as e:
             # raise CommandError(e)

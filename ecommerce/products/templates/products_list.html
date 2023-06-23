@@ -26,6 +26,7 @@
 {#</html>#}
 
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}
     <title>Products page</title>
@@ -44,11 +45,21 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Products page</h1>
+    <h1>Products page ({{ products | length }})</h1>
+    {% comment %}<form method="get" action="{% url 'products:products_list' %}">
+        <input type="number" name="min" min="0" step="100" />
+        <input type="number" name="max" min="0" step="100" />
+        <input type="submit" value="Filter" />
+    </form>{% endcomment %}
+    <form method="get" action="{% url 'products:products_list' %}" novalidate>
+        {{ form.as_p }}
+        <input type="submit" value="Filter" />
+    </form>
     <ul class="products-list">
         {% for product in products %}
             <li>
                 <h4>{{ product.name | truncatechars:50 }} ({{ product.price }} RON)</h4>
+                <img src="{{ product.image_src }}" width="50" />
                 <a href="{% url 'products:product_details' product.id %}">View details</a>
             </li>
         {% endfor %}
