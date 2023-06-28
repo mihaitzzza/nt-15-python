@@ -24,6 +24,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", homepage, name="homepage"),  # http://localhost:8000
     path("products/", include("products.urls")),  # http://localhost:8000/products
+    path("users/", include("users.urls")),
 ]
 
 if settings.DEBUG:

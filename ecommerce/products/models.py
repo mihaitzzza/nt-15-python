@@ -1,8 +1,12 @@
 from django.db import models
+from django.contrib import admin
 from django.templatetags.static import static
 
 
 class Category(models.Model):
+    class Meta:
+        verbose_name_plural = "categories"
+
     name = models.CharField(max_length=255, unique=True)
     parent = models.ForeignKey("Category", null=True, default=None, on_delete=models.CASCADE)
     type = models.CharField(
@@ -25,15 +29,19 @@ class Product(models.Model):
         # return self.category.parent
         return self.parent_subcategory().parent
 
-    def parent_department(self):
-        # return self.category.parent.parent
-        return self.parent_category().parent
-
     @property
+    @admin.display(description="image")
     def image_src(self):
         if self.image:
             return self.image.url
 
         return static("images/default-product-image.png")
+
+    def parent_department(self):
+        # return self.category.parent.parent
+        return self.parent_category().parent
+
+    def __str__(self):
+        return self.name
 
 

@@ -3,8 +3,8 @@ from products.models import Product
 
 
 class ProductsByPrice(forms.Form):
-    min_price = forms.IntegerField(required=False, step_size=100, label="Min", min_value=0)
-    max_price = forms.IntegerField(required=False, step_size=100, label="Max", min_value=0)
+    min_price = forms.DecimalField(required=False, label="Min", min_value=0.00)
+    max_price = forms.DecimalField(required=False, label="Max", min_value=0.00)
 
     def clean(self):
         min_price = self.cleaned_data.get("min_price", 0)
@@ -25,7 +25,10 @@ class ProductsByPrice(forms.Form):
         min_price = self.cleaned_data.get("min_price", 0)
         max_price = self.cleaned_data.get("max_price", 0)
 
-        if max_price < min_price:
+        is_min_price_set = min_price is not None
+        is_max_price_set = max_price is not None
+
+        if is_min_price_set and is_max_price_set and max_price < min_price:
             raise forms.ValidationError("max_price cannot be lower than min_price!")
 
         return max_price
